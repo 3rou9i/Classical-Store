@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(./Image/FeatureImage_01-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.logo a{
+
+   
+
+
+    color: #ffffff;
+    padding: 10px 15px; 
+    border: 1px ; color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+    
+}
+.logo span{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2rem;
+    
+
+    color: #ffffff;
+    padding: 10px 15px; 
+    border: 1px ; color: #000000;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+
+}
+
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px ;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background: #0000008c;
+    color: #ffffff;
+}
+
+ul li.active a {
+
+     background: #0000008c;
+     color: rgb(255, 255, 255);
+}
+
+.principale{
+    max-width: 42.2rem;
+    margin: 0 auto;
+}
+.titre{
+    position: absolute;
+    top: 58%;
+    left: 73%;
+    transform: translate(-100%, -110%);
+}
+.titre h1{
+    color: #e7e7e7;
+    font-size: 65px;
+}
+
+
+.titre h2{
+    color: #e7e7e7;
+    font-size: 30px;
+}
+
+.titre h4{
+    color: #e7e7e7;
+    font-size: 25px;
+}
+
+.titre h3{
+    color: #ffffffb2;
+    font-size: 20px;
+}
+
+
+.content{
+
+width: 1200px;
+height: auto;
+margin: auto;
+color: #ffffff;
+position: relative;
+
+}
+
+
+
+.content .cn{
+width: 200px;
+height: 50px;
+background: rgb(117, 117, 117);
+border: none;
+margin-bottom: 34px;
+margin-left: 210px;
+font-size: 19px;
+border-radius: 40px;
+cursor: pointer;
+transition: 4s ease;
+}
+
+
+.content .cn a{
+text-decoration: none;
+color:rgb(0, 0, 0);
+transition: 3s ease;
+}
+
+.cn:hover{
+background-color: #ffffff;
+
+}
+
+
+.form{
+
+width: 400px;
+height: 400px;
+background: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%);
+position: absolute;
+top: 229px;
+left: 1200px;
+border-radius: 20px;
+padding: 50px;
+}
+
+
+.form h2{
+width: 300px;
+font-family: century;
+color: rgb(204, 204, 204);
+text-align: center;
+font-size: 30px;
+background-color: #00000000;
+border-radius: 20px;
+margin: 7px;
+padding: 5px;
+
+}
+
+
+.form input{
+
+    width: 300px;
+    height: 35px;
+    background: transparent;
+    color: #ffffff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input :focus{
+outline: none;
+
+}
+::placeholder{
+color: rgb(255, 255, 255);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.btnn{
+width: 300px;
+height: 32px;
+background: rgb(255, 255, 255);
+margin-top: 20px;
+border: none;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: rgba(117, 117, 117, 0.541);
+transition: 0.3s ease;
+}
+.btnn:hover{
+
+    background: #6e6e6e;
+    color: aqua;
+}
+.btnn a{
+    text-decoration: none;
+    color: #0000008c;
+    font-weight: bold;
+}
+
+.form .link{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 15px;
+padding-top: 12px;
+color: #ffffff;
+text-align: center;
+
+}
+
+
+
+
+form.link a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+
+
+}
+.liw{
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+color: #ffffff;
+
+}
